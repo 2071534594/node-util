@@ -18,7 +18,7 @@ npm i ng-antd-cli -g
 然后在path用户变量后面添加 %NODE_GLOBAL%
 
 ## 命令名称
-命令名称是定义在package.json中的commandName:'homer'
+命令名称是定义在package.json中的commandName:'tool'
 
 ## 查看命名行版本
 打开cmd命令行 输入 <commandName> -v,查看脚手架版本，若输出版本信息，则确定生成成功
@@ -34,5 +34,5 @@ npm i ng-antd-cli -g
 在指定路径下初始化项目：
 
 `
-homer init <项目名称>
+tool init <项目名称>
 `
