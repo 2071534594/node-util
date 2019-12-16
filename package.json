@@ -1,0 +1,29 @@
+{
+  "name": "node-util",
+  "version": "0.0.1",
+  "description": "",
+  "commandName": "tool",
+  "bin": {
+    "tool": "./bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/core": "^8.2.14",
+    "@types/jasmine": "^3.5.0",
+    "async": "^3.1.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.5.3",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3",
+    "path": "^0.12.7"
+  },
+  "keywords": [],
+  "author": "adelaide",
+  "license": "MIT"
+}
